@@ -1,0 +1,25 @@
+why we didnt declare WebDriver and Properties as static variable in our base class?
+so they can be global and we can use them through out our prog?
+
+Don't we need to extend baseclass in both login and loginscanario classes?
+
+what is public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>();?
+
+After login we entered in Dashbored page...Now i want to click on Assign Leave button..
+I put AssignLeave button in dashboared page.Now i need to make dashBoaredScanario ...
+will i call asignLeavebutton in  dashbored scanario ?
+
+in AssignLeave page how I use Explicit wait utility for Leavetype dropdown and calender date? 
+
+//where will you initialize ur page factory?in login class or login Scanario class ?its not a good practice to initialize 
+pagefactory in login class where we are defining our object repository?
+In your pom.xml file remove the scope and this should work fine.
+
+As per below code in pom.xml, remove the scope tag.
+<dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8.7</version>
+            **<scope>test</scope>** //Remove this line and compile maven
+</dependency>
+Even though we have imported the maven dependency for Testng, when you add scope tag in XML file, it treats as JUnit annotation and not as Testng. So when I removed scope tag, My @Test Annotation was treated as Testng Annotation.

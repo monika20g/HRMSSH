@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.orangehrm.tests.CreateUserAdminTest">
+        <methods>
+          <include name="verifyPage"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="createUserFromAdminApplication"/>
+          <include name="setUp"/>
+          <include name="tearDownReport"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.CreateUserAdminTest -->
+      <class name="com.qa.orangehrm.tests.LoginScenarios">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setupReport"/>
+          <include name="setUp"/>
+          <include name="tearDownReport"/>
+          <include name="verifyPage"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.LoginScenarios -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
