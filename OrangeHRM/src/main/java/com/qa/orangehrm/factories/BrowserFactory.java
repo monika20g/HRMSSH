@@ -17,7 +17,7 @@ public static WebDriver getApplication(String browserName,String appURL)
  WebDriver driver=null;	
 	if (browserName.equals("chrome")) {
 		WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver","/Users/monika/Downloads/chromedriver 2");
+	//	System.setProperty("webdriver.chrome.driver","/Users/monika/Downloads/chromedriver 2");
 		//./src/test/resources/drivers/chromedriver
 	//	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"./src/test/resources/drivers/chromedriver");
 	

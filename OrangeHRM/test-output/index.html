@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,41 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.CreateUserAdminTest" class="method navigator-link" hash-for-method="createUserFromAdminApplication">createUserFromAdminApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.LoginScenarios" class="method navigator-link" hash-for-method="loginToApplication">loginToApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.CreateUserAdminTest" class="method navigator-link" hash-for-method="loginToApplication">loginToApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.LoginScenarios" class="method navigator-link" hash-for-method="loginToApplication">loginToApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.LoginScenarios" class="method navigator-link" hash-for-method="verifyPage">verifyPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.orangehrm.tests.CreateUserAdminTest" class="method navigator-link" hash-for-method="verifyPage">verifyPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,9 +137,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.qa.orangehrm.tests.LoginScenarios</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,9 +148,6 @@
                   <a name="loginToApplication">
                   </a> <!-- loginToApplication -->
                   <span class="method-name">loginToApplication</span>
-                  <div class="stack-trace">java.lang.Throwable: Method LoginScenarios.loginToApplication()[pri:1, instance:com.qa.orangehrm.tests.LoginScenarios@623a8092] depends on not successfully finished methods
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -158,64 +155,13 @@
                   <a name="verifyPage">
                   </a> <!-- verifyPage -->
                   <span class="method-name">verifyPage</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Amits-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:18e3:5e6e:dcef:a907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;9.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver 2                      0x000000010f1acfd9 chromedriver 2 + 3747801
-1   chromedriver 2                      0x000000010f141613 chromedriver 2 + 3307027
-2   chromedriver 2                      0x000000010eed110f chromedriver 2 + 749839
-3   chromedriver 2                      0x000000010ee32adb chromedriver 2 + 101083
-4   chromedriver 2                      0x000000010ee2ebd1 chromedriver 2 + 84945
-5   chromedriver 2                      0x000000010ee5d097 chromedriver 2 + 274583
-6   chromedriver 2                      0x000000010ee5a263 chromedriver 2 + 262755
-7   chromedriver 2                      0x000000010ee34c0d chromedriver 2 + 109581
-8   chromedriver 2                      0x000000010ee35ba5 chromedriver 2 + 113573
-9   chromedriver 2                      0x000000010f1700bf chromedriver 2 + 3498175
-10  chromedriver 2                      0x000000010f17ccbd chromedriver 2 + 3550397
-11  chromedriver 2                      0x000000010f17ca48 chromedriver 2 + 3549768
-12  chromedriver 2                      0x000000010f14f169 chromedriver 2 + 3363177
-13  chromedriver 2                      0x000000010f17d518 chromedriver 2 + 3552536
-14  chromedriver 2                      0x000000010f163b77 chromedriver 2 + 3447671
-15  chromedriver 2                      0x000000010f1930d4 chromedriver 2 + 3641556
-16  chromedriver 2                      0x000000010f1b2dc7 chromedriver 2 + 3771847
-17  libsystem_pthread.dylib             0x00007fff657d92eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff657dc249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff657d840d thread_start + 13
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.qa.orangehrm.factories.BrowserFactory.getApplication(BrowserFactory.java:24)
-	at com.qa.orangehrm.base.BaseClass.setUp(BaseClass.java:69)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.qa.orangehrm.tests.CreateUserAdminTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -224,9 +170,6 @@ remote stacktrace: 0   chromedriver 2                      0x000000010f1acfd9 ch
                   <a name="createUserFromAdminApplication">
                   </a> <!-- createUserFromAdminApplication -->
                   <span class="method-name">createUserFromAdminApplication</span>
-                  <div class="stack-trace">java.lang.Throwable: Method CreateUserAdminTest.createUserFromAdminApplication()[pri:2, instance:com.qa.orangehrm.tests.CreateUserAdminTest@a1cdc6d] depends on not successfully finished methods
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -234,9 +177,6 @@ remote stacktrace: 0   chromedriver 2                      0x000000010f1acfd9 ch
                   <a name="loginToApplication">
                   </a> <!-- loginToApplication -->
                   <span class="method-name">loginToApplication</span>
-                  <div class="stack-trace">java.lang.Throwable: Method CreateUserAdminTest.loginToApplication()[pri:1, instance:com.qa.orangehrm.tests.CreateUserAdminTest@a1cdc6d] depends on not successfully finished methods
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -244,65 +184,14 @@ remote stacktrace: 0   chromedriver 2                      0x000000010f1acfd9 ch
                   <a name="verifyPage">
                   </a> <!-- verifyPage -->
                   <span class="method-name">verifyPage</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Amits-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:18e3:5e6e:dcef:a907%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;9.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver 2                      0x00000001047e7fd9 chromedriver 2 + 3747801
-1   chromedriver 2                      0x000000010477c613 chromedriver 2 + 3307027
-2   chromedriver 2                      0x000000010450c10f chromedriver 2 + 749839
-3   chromedriver 2                      0x000000010446dadb chromedriver 2 + 101083
-4   chromedriver 2                      0x0000000104469bd1 chromedriver 2 + 84945
-5   chromedriver 2                      0x0000000104498097 chromedriver 2 + 274583
-6   chromedriver 2                      0x0000000104495263 chromedriver 2 + 262755
-7   chromedriver 2                      0x000000010446fc0d chromedriver 2 + 109581
-8   chromedriver 2                      0x0000000104470ba5 chromedriver 2 + 113573
-9   chromedriver 2                      0x00000001047ab0bf chromedriver 2 + 3498175
-10  chromedriver 2                      0x00000001047b7cbd chromedriver 2 + 3550397
-11  chromedriver 2                      0x00000001047b7a48 chromedriver 2 + 3549768
-12  chromedriver 2                      0x000000010478a169 chromedriver 2 + 3363177
-13  chromedriver 2                      0x00000001047b8518 chromedriver 2 + 3552536
-14  chromedriver 2                      0x000000010479eb77 chromedriver 2 + 3447671
-15  chromedriver 2                      0x00000001047ce0d4 chromedriver 2 + 3641556
-16  chromedriver 2                      0x00000001047eddc7 chromedriver 2 + 3771847
-17  libsystem_pthread.dylib             0x00007fff657d92eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff657dc249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff657d840d thread_start + 13
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.qa.orangehrm.factories.BrowserFactory.getApplication(BrowserFactory.java:24)
-	at com.qa.orangehrm.base.BaseClass.setUp(BaseClass.java:69)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/monika/Documents/workspace-Monika/OrangeHRM/XMLFiles/testng.xml</span>
+            <span class="header-content">/Users/monika/git/HRMSSH/OrangeHRM/XMLFiles/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -354,30 +243,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPage')
-data.setCell(0, 2, 'com.qa.orangehrm.tests.LoginScenarios')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'createUserFromAdminApplication')
+data.setCell(0, 2, 'com.qa.orangehrm.tests.CreateUserAdminTest')
+data.setCell(0, 3, 4881);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginToApplication')
 data.setCell(1, 2, 'com.qa.orangehrm.tests.LoginScenarios')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 4125);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyPage')
+data.setCell(2, 1, 'loginToApplication')
 data.setCell(2, 2, 'com.qa.orangehrm.tests.CreateUserAdminTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 3057);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createUserFromAdminApplication')
-data.setCell(3, 2, 'com.qa.orangehrm.tests.CreateUserAdminTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'verifyPage')
+data.setCell(3, 2, 'com.qa.orangehrm.tests.LoginScenarios')
+data.setCell(3, 3, 43);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginToApplication')
+data.setCell(4, 1, 'verifyPage')
 data.setCell(4, 2, 'com.qa.orangehrm.tests.CreateUserAdminTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 17);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -411,39 +300,75 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.orangehrm.tests.LoginScenarios</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyPage</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.orangehrm.tests.CreateUserAdminTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyPage</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.orangehrm.tests.LoginScenarios</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setupReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">312 ms</span>
+                <span class="method-start">368 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPage</span>
+                <span class="method-start">4322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownReport([TestResult name=verifyPage status=SUCCESS method=LoginScenarios.verifyPage()[pri:0, instance:com.qa...)</span>
+                <span class="method-start">4367 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.orangehrm.tests.CreateUserAdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">2936 ms</span>
+                <span class="method-start">4923 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPage</span>
+                <span class="method-start">8009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownReport([TestResult name=verifyPage status=SUCCESS method=CreateUserAdminTest.verifyPage()[pri:0, instance:c...)</span>
+                <span class="method-start">8028 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.orangehrm.tests.LoginScenarios</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">8166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownReport([TestResult name=loginToApplication status=SUCCESS method=LoginScenarios.loginToApplication()[pri:1,...)</span>
+                <span class="method-start">12292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12360 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.orangehrm.tests.CreateUserAdminTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">12487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownReport([TestResult name=loginToApplication status=SUCCESS method=CreateUserAdminTest.loginToApplication()[p...)</span>
+                <span class="method-start">15546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createUserFromAdminApplication</span>
+                <span class="method-start">15639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownReport([TestResult name=createUserFromAdminApplication status=SUCCESS method=CreateUserAdminTest.createUser...)</span>
+                <span class="method-start">20521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20581 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
